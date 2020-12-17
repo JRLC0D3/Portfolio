@@ -73,7 +73,7 @@ li a:hover {
 
 
 h1 {
-  font-family: 'Source Sans Pro', sans-serif
+  font-family: 'Source Sans Pro', sans-serif;
   color: black;
   text-align: center;
   font-size: 25px;
@@ -170,4 +170,19 @@ h3{
   html {
     font-size: 2vw;
   }
+}
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+.typeTwo {
+  font: bold 200% Consolas, Monaco, monospace;
+  border-right: .1em solid black;
+  width: 16.5em;
+
+  margin: 2em 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typing 3s steps(21, end),
+  blink-caret .3s step-end infinite alternate;
 }
