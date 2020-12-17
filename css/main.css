@@ -125,3 +125,8 @@ h2 {
 
 
 
+@media screen and (min-width: 50em) {
+  html {
+    font-size: 2vw;
+  }
+}
