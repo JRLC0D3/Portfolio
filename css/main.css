@@ -28,8 +28,7 @@ p {
   font-family: 'Source Sans Pro', sans-serif;
   color: black;
   text-align: justify;
-  padding-top: -60px;
-  padding-bottom: 30px;
+
 }
 
 
@@ -95,7 +94,7 @@ h2 {
   position: relative;
   background-color: aqua;
   padding: 20px;
-  top: -60px;
+
 
 }
 
@@ -119,8 +118,7 @@ h4{
   position: relative;
   background-color: aqua;
   padding: 20px;
-  top: -40px;
-  bottom: -40px;
+
 
 
 }
